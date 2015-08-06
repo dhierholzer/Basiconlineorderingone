@@ -1,0 +1,85 @@
+#pizzasize {display:none;}
+#pizzatoppings {display:none;}
+#pizzatoppingtypes {display:none;}
+#pizzatoppingsort {display:none;}
+#btn2 {display:none;}
+#btn3 {display:none;}
+#btn4 {display:none;}
+#btn5 {display:none;}
+
+
+  #sortable1, #sortable2, #sortable3 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable1 li, #sortable2 li,  #sortable3 li{
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+  }
+  
+  #pos
+{
+    z-index:100;
+    position:absolute;    
+
+}
+
+/* These Are The Styles For The Pizza Forms */
+.pizzacrustformstyle
+{
+width:200px;
+height:190px;
+background-color:#96BBE8;
+border-radius: 25px;
+padding: 25px 25px 20px;
+border:1px solid #999999;
+
+}
+
+.pizzasizeformstyle
+{
+width:200px;
+height:200px;
+background-color:#96BBE8;
+border-radius: 25px;
+padding: 25px 25px 20px;
+border:1px solid #999999;
+
+}
+
+.pizzatoppingsformstyle
+{
+width:250px;
+height:290px;
+background-color:#96BBE8;
+border-radius: 25px;
+padding: 25px 25px 20px;
+border:1px solid #999999;
+}
+.pizzatoppingtypesformstyle
+{
+width:250px;
+height:470px;
+background-color:#96BBE8;
+border-radius: 25px;
+padding: 25px 25px 20px;
+border:1px solid #999999;
+}
+
+.pizzatoppingssortformstyle
+{
+width:600px;
+height:500px;
+background-color:#96BBE8;
+border-radius: 25px;
+padding: 25px 25px 20px;
+border:1px solid #999999;
+}
